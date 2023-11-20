@@ -30,8 +30,7 @@ public class RestController {
 			return new ResponseEntity("Sorry! Employees not Available!",
 					HttpStatus.NOT_FOUND);
 		}
-		
-		
+	
 		
 	
 		return new ResponseEntity<List<Employee>>(employees, HttpStatus.OK);
